@@ -31,20 +31,16 @@ def run_discord_bot():
 
     tasks = []
     emoji_mapping = {
-        "brel": "<:brel:1124420009272299590>",
-        "clown": "<:kuku:1124420012237660172>",
-        "kayangel": "<:kayangel:1124420007284195404>",
-        "valtan": "<:valtan:1124420005145100459>",
-        "vykas": "<:vykas:1124420003651932200>",
+        "work": "📓", # Can also use emotes instead of unicode: Ex. <:brel:1124420009272299590>
+        "chores": "🧹",
+        "workout": "🏋",
         "misc": "📄"
     }
 
     category_mapping = {
-        "<:brel:1124420009272299590>": "Brelshaza",
-        "<:kuku:1124420012237660172>": "Kakul Saydon",
-        "<:kayangel:1124420007284195404>": "Kayangel",
-        "<:valtan:1124420005145100459>" : "Valtan",
-        "<:vykas:1124420003651932200>" : "Vykas",
+        "📓": "Work",
+        "🧹": "Chores",
+        "🏋": "Workout",
         "📄": "Misc"
     }
 
