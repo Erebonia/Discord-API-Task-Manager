@@ -1,93 +1,54 @@
-# Discord Checklist Bot
+# ✅ Discord Task Bot
 
-## Features:
+A simple, emoji-enhanced task checklist bot for Discord. Organize your to-dos with categories, mark them complete, and see everything in a beautifully formatted embed — all from chat.
 
-📋 Smart Task Management
+---
 
-    Add Tasks to Categories
-    Users can create tasks under organized groups like Work, Chores, Workout, or leave them uncategorized (Misc).
+## ✨ Features
 
-    Edit Existing Tasks
-    Tasks can be updated without re-adding them, using a category and index.
+- 📓 **Task Categories**
+  - Organize your tasks into:  
+    - 📓 Work  
+    - 🧹 Chores  
+    - 🏋 Workout  
+    - 📄 Miscellaneous (uncategorized)
 
-    Mark Tasks as Complete or Incomplete
-    Users can check off or undo completed tasks individually or in bulk.
+- 📝 **Smart Task Management**
+  - Add, edit, complete, uncomplete, or remove tasks by number.
+  - Supports multiple tasks at once using spaces, commas, or ranges (e.g., `1 2 3`, `1,3`, `2-4`).
 
-    Clear All Completed Tasks
-    With one command, users can uncheck all completed tasks across every category.
+- ✅ **Completion Tracking**
+  - Tasks display with ✅ or ❌ to show their current status.
+  - Use `!uncompleteall` to reset all completed tasks instantly.
 
-    Remove Tasks Easily
-    Tasks can be deleted based on their number within a category.
+- 📋 **Embed Checklist View**
+  - Your list is displayed in a clear, colorful Discord embed.
+  - Updated automatically after each task action.
 
-📂 Categorized & Emoji-Labeled
+- 🏷️ **Custom Checklist Name**
+  - Rename your list to fit your project or mood.
 
-    Tasks are grouped into clear, emoji-marked categories:
+- 💬 **User-Friendly Commands**
+  - Helpful error messages and guidance if something goes wrong.
 
-        📓 Work
+---
 
-        🧹 Chores
+## 📌 Example Commands
 
-        🏋 Workout
+- `!add work Finish the report`
+- `!edit chores 2 Take out trash`
+- `!complete workout 1 2`
+- `!remove work 3`
+- `!mylist`
+- `!rename Weekly Goals`
 
-        📄 Miscellaneous
+---
 
-    Emojis make the checklist visually appealing and intuitive in chat.
+## 🚀 Getting Started
 
-🎨 Dynamic Checklist Display
+1. Clone this repo.
+2. Add your Discord bot token to a `.env` file:
 
-    The mylist command generates a rich embed showing:
-
-        Category headers
-
-        Each task with a ✅ or ❌ to indicate status
-
-        Clear task numbering for easy referencing
-
-    The checklist updates automatically after any action, such as adding or completing a task.
-
-🏷️ Custom Checklist Name
-
-    Rename your checklist to suit different goals, themes, or team projects.
-
-🔍 Flexible Input Parsing
-
-    The bot accepts:
-
-        Individual numbers (e.g., 1 2 3)
-
-        Commas (e.g., 1,2,3)
-
-        Ranges (e.g., 2-5)
-
-    This makes it fast and easy to manage multiple tasks at once.
-
-🧠 Smart Error Handling
-
-    Friendly messages when:
-
-        Categories are invalid
-
-        Task numbers are out of range
-
-        Tasks are already marked complete or incomplete
-
-🧩 Modular, Scalable Design
-
-    Internally organized to allow:
-
-        Easy expansion with new categories or commands
-
-        Future integration with persistent databases
-
-        Lightweight deployment on any Discord server
-
-👥 Ideal Use Cases
-
-    Task lists for individuals or small teams
-
-    Daily routines or personal goals (fitness, chores, work, etc.)
-
-    Project management in shared community servers
 
 ```
 Commands:
